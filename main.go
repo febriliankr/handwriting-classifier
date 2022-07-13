@@ -17,8 +17,9 @@ func main() {
 	}
 	log.Println("Attempting to start server on port " + port)
 	e.Static("/", "public")
-	e.Static("/w3/Examples", "w3")
+	e.Static("/w2", "w2")
+	e.Static("/w3", "w3/Examples")
 	e.Static("/teachable-machine", "teachable-machine")
-	e.Static("/w4/Examples", "w4")
+	e.Static("/w4", "w4/Examples")
 	e.Logger.Fatal(e.Start(":" + port))
 }
