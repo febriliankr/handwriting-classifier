@@ -57,7 +57,7 @@ function handleButton(elem){
 	switch(elem.id){
 		case "0":
 			rockSamples++;
-			document.getElementById("rocksamples").innerText = "Rock samples:" + rockSamples;
+			document.getElementById("rocksamples").innerText = "Ganteng samples:" + rockSamples;
 			break;
 		case "1":
 			paperSamples++;
